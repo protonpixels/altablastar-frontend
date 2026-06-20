@@ -3,6 +3,7 @@
     <div class="header">
       <h1>🥊 MMA Strategy Builder</h1>
       <h3>What chance do you have to win your fight?</h3>
+      <h4>You may need to wait 60 seconds for server to start</h4>
     </div>
 
     <!-- Input Form -->
@@ -349,6 +350,11 @@ export default {
   p {
     color: #666;
   }
+}
+
+h4 {
+  font-weight: 200;
+  margin-top: 1rem;
 }
 
 .predictor-form {
